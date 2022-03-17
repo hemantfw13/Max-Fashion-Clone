@@ -34,5 +34,5 @@ This is the clone of [Max Fashion](https://www.maxfashion.in/in/en/department/ma
 ## Glimpse of My work
 ![HOMEPAGE](https://github.com/Lpavan6445/photos/blob/main/max-fashion/Demo.png?raw=true)
 ![MenPage](https://github.com/Lpavan6445/photos/blob/main/max-fashion/menProduct.png?raw=true)
-![MenFrontPage](https://github.com/Lpavan6445/photos/blob/main/max-fashion/menfront.png?raw=true)
+<!-- ![MenFrontPage](https://github.com/Lpavan6445/photos/blob/main/max-fashion/menfront.png?raw=true) -->
 ![HOMEPAGE](https://github.com/Lpavan6445/photos/blob/main/max-fashion/footer.png?raw=true)
