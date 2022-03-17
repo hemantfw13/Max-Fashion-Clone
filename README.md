@@ -1,11 +1,10 @@
 # Max-Fashion-Clone
-@@ -1,4 +1,4 @@
-This is the clone of [Max Fashion](https://www.maxfashion.in/in/en/department/maxmen) build using Html, CSS JavaScript and Tailwind-Css.This is Single Handed Front-End project done by me in the third unit construct week organised at Masai School, Bengaluru, Karnataka within 5 Day. 
+
 This is the clone of [Max Fashion](https://www.maxfashion.in/in/en/department/maxmen) build using Html, CSS JavaScript, NodeJS and Tailwind-Css.This is group project done by a team of total 6 people in the third unit construct week organised at Masai School in a timespan of 5 days. 
 
 ## Table of contents
 
-@@ -36,20 +36,21 @@ Landmark Group has multiple retail brands, including Centrepoint, Babyshop, Spla
+ Landmark Group has multiple retail brands, including Centrepoint, Babyshop, Spla
 
 ## Technology
 
