@@ -169,13 +169,13 @@
             window.location.href = "admin.html";
             alert('Welcome admin!');
         }else if(email == 'user1@mail.com' && pass == '1234') {
-            window.location.href = "homepage.html";
+            window.location.href = "index.html";
                     alert('login succesful');
         }
         else{
             for (var i = 0; i < regdUser.length; i++){
                 if (regdUser[i].emailAddress == email && regdUser[i].passWord == pass){
-                    window.location.href = "homepage.html";
+                    window.location.href = "index.html";
                     alert('login succesful');
                 } else{
                     alert("Check you email & password");
