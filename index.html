@@ -16,350 +16,375 @@
     <title>Online Shopping at Max</title>
     <style>
       #container1 {
-        width:100%;
+          width: 100%;
       }
       #box {
-        display: grid;
-        grid-template-columns: repeat(5, 20%);
-        height: 250px;
-        width: 90%;
-        margin: auto;
-        margin-left: 10%;
-        margin-top: 60px;
-        
+          display: grid;
+          grid-template-columns: repeat(5, 20%);
+          height: 250px;
+          width: 90%;
+          margin: auto;
+          margin-left: 10%;
+          margin-top: 60px;
       }
       #box1 {
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
-        left:0; 
-        height: 550px;
-        width: auto;
-        margin-top: 20px;
-       
+          display: grid;
+          grid-template-columns: 25% 25% 25% 25%;
+          height: 550px;
+          width: auto;
+          margin-top: 20px;
       }
       #box2 {
-        display: grid;
-        grid-template-columns: repeat(2, 50%);
-        grid-template-rows: 100px 100px;
-        gap: 20px;
-     
-        height: 250px;
-        width: 90%;
-        margin: auto;
-        margin-top: 30px;
+          display: grid;
+          grid-template-columns: repeat(2, 50%);
+          grid-template-rows: 100px 100px;
+          gap: 20px;
+          height: 250px;
+          width: 90%;
+          margin: auto;
+          margin-top: 30px;
       }
-      
-
-     
+  
       #imgbox {
-        display: flex;
-        background-color: white;
-        border: 1px solid white;
+          display: flex;
+          background-color: white;
+          border: 1px solid white;
       }
-      .navbar ul{
-          
-            list-style: none;
-            position: relative;
-            margin: 0;
-            padding: 0;
-            float: left;
-            background-color:white;
-
+      .navbar ul {
+          list-style: none;
+          position: relative;
+          margin: 0;
+          padding: 0;
+          float: left;
+          background-color: white;
       }
-      .navbar ul a{
-            text-decoration: none;
-            padding: 0 20px;
-            line-height:40px;
-            display: block;
+      .navbar ul a {
+          text-decoration: none;
+          padding: 0 20px;
+          line-height: 40px;
+          display: block;
       }
-      .navbar ul li{
-            float: left;
-            position: relative;
-            margin: 0;
-
-       }
-      .navbar ul ul{
-            position:fixed;
-            background-color: white;
-            display:none;
-       }
-      .navbar ul ul li{
-            display: flex;
-            position: relative;
-            float: left;
-            justify-content: space-evenly;
-   
-       }
-      .navbar ul li:hover ul{
-            display: flex;
-            display: block;
-            float: left;
-            left: 0;
-            
+      .navbar ul li {
+          float: left;
+          position: relative;
+          margin: 0;
+      }
+      .navbar ul ul {
+          position: fixed;
+          background-color: white;
+          display: none;
+      }
+      .navbar ul ul li {
+          display: flex;
+          position: relative;
+          float: left;
+          justify-content: space-evenly;
+      }
+      .navbar ul li:hover ul {
+          display: flex;
+          display: block;
+          float: left;
+          left: 0;
       }
       #first ul {
-        display: flex;
-        justify-content: space-evenly;
+          display: flex;
+          justify-content: space-evenly;
       }
       #first {
-        background-color: black;
-        margin-bottom: 20px;
-
-      
-        height: 55px;
-        padding-top: 5px;
+          background-color: black;
+          margin-bottom: 20px;
+          height: 55px;
+          padding-top: 5px;
       }
-      #whitelink{
-        color: white;
-        text-decoration: none;
-        font-size: 20px;
-        font-family: "Open Sans", sans-serif;
-        margin-top: 1px;
+      #whitelink {
+          color: white;
+          text-decoration: none;
+          font-size: 20px;
+          font-family: "Open Sans", sans-serif;
+          margin-top: 1px;
       }
-      
-      #blacklink{
-        color: black;
-        text-decoration: none;
-        font-size: 15px;
-        font-weight:bolder;
-        font-family: "Open Sans", sans-serif;
-        margin-left: 10px;
-        
+      #blacklink {
+          color: black;
+          text-decoration: none;
+          font-size: 15px;
+          font-weight: bolder;
+          font-family: "Open Sans", sans-serif;
+          margin-left: 10px;
       }
-      
       input[type*="c"] {
-        width: 450px;
-        height: 40px;
-        background-color: rgb(235, 235, 235);
-        margin-top: 1px;
-        border: none;
-        margin-right: 100px;
-        margin-left: 5px;
-        font-size: 15px;
-        font-family: "Open Sans", sans-serif;
+          width: 450px;
+          height: 40px;
+          background-color: rgb(235, 235, 235);
+          margin-top: 1px;
+          border: none;
+          margin-right: 100px;
+          margin-left: 5px;
+          font-size: 15px;
+          font-family: "Open Sans", sans-serif;
       }
-      #otherblacklink{
-        color: black;
-        text-decoration: none;
-        font-size: 20px;
-        font-weight: bolder;
-        font-family: "Open Sans", sans-serif;
-        padding-left: 10px;
+      #otherblacklink {
+          color: black;
+          text-decoration: none;
+          font-size: 20px;
+          font-weight: bolder;
+          font-family: "Open Sans", sans-serif;
+          padding-left: 10px;
       }
-      
+  
       .blank {
-        color: white;
+          color: white;
       }
+  
       .shopwomen {
-      
-        height: 550px;
-        width: 100%;
-        background-image: url(dist/img/girl1.png);
-        background-repeat: no-repeat;
-        background-size: 100% 550px;
-        
+          height: 550px;
+          width: 100%;
+          background-image: url(dist/img/girl1.png);
+          background-repeat: no-repeat;
+          background-size: 100% 550px;
       }
       .shopmen {
-        
-        height: 550px;
-        width: 100%;
-        background-image: url(dist/img/boy1.png);
-        background-repeat: no-repeat;
-        background-size: 100% 550px;
+          height: 550px;
+          width: 100%;
+          background-image: url(dist/img/boy1.png);
+          background-repeat: no-repeat;
+          background-size: 100% 550px;
       }
       .shopgirls {
-       
-        height: 550px;
-        width: 100%;
-        background-image: url(dist/img/girl2.png);
-        background-repeat: no-repeat;
-        background-size: 100% 550px;
+          height: 550px;
+          width: 100%;
+          background-image: url(dist/img/girl2.png);
+          background-repeat: no-repeat;
+          background-size: 100% 550px;
       }
       .shopboys {
-        
-        height: 550px;
-        width: 100%;
-        background-image: url(dist/img/boy2.png);
-        background-repeat: no-repeat;
-        background-size: 100% 550px;
+          height: 550px;
+          width: 100%;
+          background-image: url(dist/img/boy2.png);
+          background-repeat: no-repeat;
+          background-size: 100% 550px;
       }
       button {
-        background-color: aliceblue;
-        border-radius: 1px;
-        border: 0px;
-        height: 50px;
-        width: 220px;
-        color: black;
-        margin: auto;
-        margin-top: 480px;
-        margin-left: 100px;
-        font-size: 18px;
-        font-family: "Open Sans", sans-serif;
+          background-color: aliceblue;
+          border-radius: 1px;
+          border: 0px;
+          height: 50px;
+          width: 220px;
+          color: black;
+          margin: auto;
+          margin-top: 480px;
+          margin-left: 100px;
+          font-size: 18px;
+          font-family: "Open Sans", sans-serif;
       }
       .head {
-        font-size: 25px;
-        font-family: "Open Sans", sans-serif;
-        font-weight: bolder;
+          font-size: 25px;
+          font-family: "Open Sans", sans-serif;
+          font-weight: bolder;
       }
       .head2 {
-        font-size: 18px;
-        font-family: "Open Sans", sans-serif;
-        font-weight: bold;
+          font-size: 18px;
+          font-family: "Open Sans", sans-serif;
+          font-weight: bold;
       }
       .sub {
-        font-size: 18px;
-        font-weight: bold;
-        font-family: "Open Sans", sans-serif;
-        color: rgb(160, 159, 159);
+          font-size: 18px;
+          font-weight: bold;
+          font-family: "Open Sans", sans-serif;
+          color: rgb(160, 159, 159);
       }
       input[type="email"] {
-        width: 400px;
-        height: 55px;
-        background-color: rgb(236, 232, 232);
-        margin-top: 5px;
-        border: none;
-        margin-left: 20px;
-        margin-top: 20px;
-        font-size: 20px;
-        font-family: "Open Sans", sans-serif;
+          width: 400px;
+          height: 55px;
+          background-color: rgb(236, 232, 232);
+          margin-top: 5px;
+          border: none;
+          margin-left: 20px;
+          margin-top: 20px;
+          font-size: 20px;
+          font-family: "Open Sans", sans-serif;
       }
       .emailsub {
-        height: 90x;
-        width: 800px;
-        margin-top: 15px;
+          height: 90px;
+          width: 800px;
+          margin-top: 15px;
       }
       .newbutton {
-        background-color: black;
-        border-radius: 1px;
-        border: 0px;
-        height: 55px;
-        width: 220px;
-        color: whitesmoke;
-        margin: auto;
-        font-size: 18px;
-        font-family: "Open Sans", sans-serif;
+          background-color: black;
+          border-radius: 1px;
+          border: 0px;
+          height: 55px;
+          width: 220px;
+          color: whitesmoke;
+          margin: auto;
+          font-size: 18px;
+          font-family: "Open Sans", sans-serif;
       }
       .playstore {
-        height: 90x;
-        width: 450px;
-       
-        margin-top: 20px;
-       
-
+          height: 90px;
+          width: 450px;
+          margin-top: 20px;
       }
-      .applestore{
-      
-        height: 65px;
-        width: 200px;
-        background-image: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/icons/en/app-store-badge-us-black.svg);
-        display:inline-block;
-        background-repeat: no-repeat;
-        background-size: 200px 65px;
-        vertical-align: top;
-        margin-top: 5px;
-
+      .applestore {
+          height: 65px;
+          width: 200px;
+          background-image: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/icons/en/app-store-badge-us-black.svg);
+          display: inline-block;
+          background-repeat: no-repeat;
+          background-size: 200px 65px;
+          vertical-align: top;
+          margin-top: 5px;
       }
-      .play{
-        
-        height: 75px;
-        width: 200px;
-        background-image: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/icons/en/google-play-badge-us.svg);
-        display:inline-block;
-        background-repeat: no-repeat;
-        background-size: 200px 75px;
-        vertical-align: top;
-
+      .play {
+          height: 75px;
+          width: 200px;
+          background-image: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/icons/en/google-play-badge-us.svg);
+          display: inline-block;
+          background-repeat: no-repeat;
+          background-size: 200px 75px;
+          vertical-align: top;
       }
-      .lasthead{
-        font-size: 18px;
-        font-family: "Open Sans", sans-serif;
-        font-weight: bolder;
+      .lasthead {
+          font-size: 18px;
+          font-family: "Open Sans", sans-serif;
+          font-weight: bolder;
       }
-      #greylink{
-        color: #928477;
-        text-decoration: none;
-        font-size: 15px;
-        font-family: "Open Sans", sans-serif;
+      #greylink {
+          color: #928477;
+          text-decoration: none;
+          font-size: 15px;
+          font-family: "Open Sans", sans-serif;
       }
-      
-      #lastbox{
-        margin-top: 300px;
-        display: grid;
-     
-        border-top:1px solid rgb(206, 206, 206);
-        border-bottom:1px solid rgb(206, 206, 206);
-        height: 250px;
-        width: 1350px;
-        margin-left: 250px;
-        
+      #lastbox {
+          margin-top: 300px;
+          display: grid;
+          border-top: 1px solid rgb(206, 206, 206);
+          border-bottom: 1px solid rgb(206, 206, 206);
+          height: 250px;
+          width: 1350px;
+          margin-left: 250px;
       }
-        .contact{
-         
-          border:bottom;
+      .contact {
+          border: bottom;
           height: 125px;
-        width: 1350px;
-        border-bottom:1px solid rgb(206, 206, 206);
-      
-        display:inline-block;
-
-        }
-        .about{
-        
+          width: 1350px;
+          border-bottom: 1px solid rgb(206, 206, 206);
+          display: inline-block;
+      }
+      .about {
           height: 123px;
-        width: 1350px;
-        }
-        .one{
-          height:120px;
-          /* width:215px;
-        */
-          display:inline-block;
+          width: 1350px;
+      }
+      .one {
+          height: 120px;
+          display: inline-block;
           vertical-align: top;
-          /* padding-left: 115px; */
-
-        }
-        .one1{
-          height:120px;
-          display:inline-block;
+      }
+      .one1 {
+          height: 120px;
+          display: inline-block;
           vertical-align: top;
-          /* padding-left: 300px; */
-          
-
-        }
-        .vehicle{
-          font-size:20px;
-          color:white;
+      }
+      .vehicle {
+          font-size: 20px;
+          color: white;
           margin-right: 10px;
-        }
-        .basket{
-          font-size:20px;
-          color:black;
+      }
+      .basket {
+          font-size: 20px;
+          color: black;
           margin-top: 10px;
-        }
-        .facebook{
-          font-size:35px;
-          color:black;
+      }
+      .facebook {
+          font-size: 35px;
+          color: black;
           margin-top: 30px;
           margin-right: 20px;
-        }
-        .search{
-          font-size:20px;
-          color:black;
-         
-          margin-left: 50px;
-          color:gray;
-          
-        }
-        .phone{
-          font-size:35px;
-          color:black;
-          margin-right: 10px;
-        
-        }
-         img {
-        display: flex;
-        width: 25%;
       }
-    </style>
+      .search {
+          font-size: 20px;
+          color: black;
+          margin-left: 50px;
+          color: gray;
+      }
+      .phone {
+          font-size: 35px;
+          color: black;
+          margin-right: 10px;
+      }
+      img {
+          display: flex;
+          width: 25%;
+      }
+  
+      /* Mobile Responsive CSS */
+      @media only screen and (max-width: 768px) {
+          #box {
+              grid-template-columns: repeat(2, 50%);
+              height: auto;
+              width: 100%;
+              margin-left: 0;
+          }
+          #box1 {
+              grid-template-columns: repeat(2, 50%);
+              height: auto;
+              margin-left: 0;
+          }
+          #box2 {
+              grid-template-columns: repeat(1, 100%);
+          }
+          .navbar ul {
+              display: block;
+              float: none;
+          }
+          .navbar ul li {
+              display: block;
+              width: 100%;
+          }
+          #first ul {
+              flex-direction: column;
+          }
+          input[type*="c"] {
+              width: 90%;
+              margin: 5px auto;
+          }
+          button {
+              width: 100%;
+              margin: 20px 0;
+          }
+          .shopwomen, .shopmen, .shopgirls, .shopboys {
+              background-size: cover;
+              height: 300px;
+          }
+          #lastbox {
+              width: 100%;
+              margin-left: 0;
+          }
+          .contact, .about {
+              width: 100%;
+          }
+      }
+  
+      @media only screen and (max-width: 480px) {
+          .shopwomen, .shopmen, .shopgirls, .shopboys {
+              height: 200px;
+          }
+          .applestore, .play {
+              background-size: 150px;
+              width: 150px;
+              height: 50px;
+          }
+          button {
+              font-size: 14px;
+          }
+          .head {
+              font-size: 20px;
+          }
+          .head2 {
+              font-size: 16px;
+          }
+      }
+  </style>
+  
   </head>
   <body>
     <div id="container1">
